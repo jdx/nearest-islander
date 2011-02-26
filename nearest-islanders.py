@@ -1,4 +1,5 @@
 from optparse import OptionParser
+from island_file_parser import parse_island_file
 
 def main():
     usage = "usage: %prog inputfile"
@@ -11,7 +12,7 @@ def main():
     elif len(args) > 1:
         parser.error("Too many arguments given")
         return
-    print args
+    parse_island_file(args[0], verbose=options.verbose)
 
 if __name__ == "__main__":
     main()

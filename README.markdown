@@ -14,3 +14,18 @@ The input file
 ====
 
 The file has multiple lines. Each line has three values listed as the islander name plus coordinates X, and Y. Name for each islander is written in ASCII characters. There will be no empty lines.
+
+Input
+====
+
+Bobo 1 2
+Freddy 10 100
+Loner 111 18
+
+Output
+====
+
+For each islander on a single line, write the names of the next 5 closest islander names, sorted by the closest to farthest.  For example, it could be like this:
+
+Ben Bobo, Freddy, Loner, Matt, Mary
+Mary Bobo, Freddy, Loner, Ben, Matt

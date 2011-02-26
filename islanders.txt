@@ -1,3 +1,9 @@
 Bobo 1 2
+Jeff 2 2
+Todd 3 2
+Mark 1 4
+Jimmy 2 1
+Jose 1 3
+James 3 1
 Freddy 10 100
 Loner 111 18

@@ -2,6 +2,7 @@ class Islander:
     """Represents an individual on an island"""
 
     isle = None
+    nearest_neighbours = []
 
     def __init__(self, name, coords):
         self.name = name
@@ -9,6 +10,3 @@ class Islander:
 
     def __repr__(self):
         return self.name
-
-    def nearest_neighbours(self, n=1):
-        return self.isle[0]

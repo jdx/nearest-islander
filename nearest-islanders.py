@@ -13,8 +13,9 @@ def main():
         parser.error("Too many arguments given")
         return
     islanders = parse_island_file(args[0], verbose=options.verbose)
+    islanders.calculate_nearest_neighbours(verbose=options.verbose)
     for islander in islanders:
-        print "%s %s" % (islander, islander.nearest_neighbours(1))
+        print "%s %s" % (islander, ','.join(map(str, islander.nearest_neighbours)))
 
 if __name__ == "__main__":
     main()

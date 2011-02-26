@@ -12,7 +12,9 @@ def main():
     elif len(args) > 1:
         parser.error("Too many arguments given")
         return
-    parse_island_file(args[0], verbose=options.verbose)
+    islanders = parse_island_file(args[0], verbose=options.verbose)
+    for islander in islanders:
+        print islander
 
 if __name__ == "__main__":
     main()

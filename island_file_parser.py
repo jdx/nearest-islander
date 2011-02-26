@@ -19,7 +19,7 @@ def parse_island_file(island_file_path, verbose=None):
             isle.add_islander(islander)
 
             if verbose:
-                print 'Got islander: %s' % islander
+                print 'Got islander: %s at %s' % ( islander, islander.coords )
 
             line = file.readline()
     return isle

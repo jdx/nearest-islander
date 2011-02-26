@@ -14,7 +14,7 @@ def main():
         return
     islanders = parse_island_file(args[0], verbose=options.verbose)
     for islander in islanders:
-        print islander
+        print "%s %s" % (islander, islander.nearest_neighbours(1))
 
 if __name__ == "__main__":
     main()

@@ -9,3 +9,6 @@ class Islander:
 
     def __repr__(self):
         return self.name
+
+    def nearest_neighbours(self, n=1):
+        return self.isle[0]

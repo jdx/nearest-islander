@@ -18,14 +18,14 @@ The file has multiple lines. Each line has three values listed as the islander n
 Input
 ====
 
-Bobo 1 2
-Freddy 10 100
-Loner 111 18
+    Bobo 1 2
+    Freddy 10 100
+    Loner 111 18
 
 Output
 ====
 
 For each islander on a single line, write the names of the next 5 closest islander names, sorted by the closest to farthest.  For example, it could be like this:
 
-Ben Bobo, Freddy, Loner, Matt, Mary
-Mary Bobo, Freddy, Loner, Ben, Matt
+    Ben Bobo, Freddy, Loner, Matt, Mary
+    Mary Bobo, Freddy, Loner, Ben, Matt

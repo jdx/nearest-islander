@@ -14,7 +14,7 @@ def main():
         return
     islanders = Isle.parse_island_file(args[0], verbose=options.verbose)
     for islander in islanders:
-        print "%s %s" % (islander, ','.join(map(str, islander.nearest_neighbours)))
+        print "%s %s" % (islander, ','.join(map(str, islander.nearest_neighbors)))
 
 if __name__ == "__main__":
     main()

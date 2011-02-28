@@ -15,7 +15,7 @@ class Islander:
         return self.name
 
     @property
-    def nearest_neighbours(self, n=5):
-        # return the neighbours close to the point of this islander
+    def nearest_neighbors(self, n=5):
+        # return the neighbors close to the point of this islander
         # we skip the first entry since that will be this islander
-        return self.isle.nearest_neighbour_search(self.coords, n)[1:]
+        return self.isle.nearest_neighbor_search(self.coords, n)[1:]
